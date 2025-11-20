@@ -1,0 +1,9 @@
+# Конфигурация Modbus RTU для сервопривода Delta ASDA-AB
+modbus:
+  port: "COM9"       # COM-порт (Windows) или /dev/ttyUSB0 (Linux)
+  baudrate: 9600     # Скорость передачи данных
+  bytesize: 8        # Количество бит данных
+  parity: "E"        # Четный паритет (Even)
+  stopbits: 1        # Количество стоп-бит
+  timeout: 1.0       # Таймаут ответа в секундах
+  slave_address: 1   # Адрес устройства (P3-00)
