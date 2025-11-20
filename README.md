@@ -1,6 +1,6 @@
 # Delta ASDA-AB Servo Control
 
-![meme](docs\meme.png)
+![meme](docs/meme.png)
 
 Скрипт для управления сервоприводом **Delta ASDA-AB** (ASD-A0421-AB) через протокол **Modbus RTU** по интерфейсу **RS-485** с возможностью управления в режиме **JOG**.
 
